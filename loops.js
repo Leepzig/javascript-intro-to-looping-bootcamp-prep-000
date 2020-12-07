@@ -11,4 +11,24 @@ function forLoop(arr) {
   return arr
 }
 
-console.log(forLoop(arr))
+function whileLoop(num) {
+  while (num > 0) {
+    console.log(num)
+    num--
+  }
+  return 'done'
+}
+
+function incrementVariable() {
+  var i = 0
+  i = i + 1;
+  return i;
+}
+
+function doWhileLoop(num) {
+  do {
+    console.log('I run once regardless.');
+  } while (incrementVariable() < num );
+}
+
+doWhileLoop(10)
