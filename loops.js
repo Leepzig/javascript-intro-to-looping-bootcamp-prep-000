@@ -33,7 +33,5 @@ function doWhileLoop(num) {
   } while (incrementVariable() < num );
   return result
 }
-var count = []
-count.push(doWhileLoop(10))
-console.log(count.length)
-console.log(count)
+
+doWhileLoop(2)
