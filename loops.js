@@ -18,10 +18,9 @@ function whileLoop(num) {
   }
   return 'done'
 }
-
+let i = 0
 function incrementVariable() {
-  var i = 0
-  i = i + 1;
+   i = i + 1;
   return i;
 }
 
