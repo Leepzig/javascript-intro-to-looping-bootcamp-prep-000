@@ -28,9 +28,10 @@ function incrementVariable() {
 
 function doWhileLoop(num) {
   do {
-    console.log('I run once regardless.');
+    var result = "I run once regardless."
+    console.log(result);
   } while (incrementVariable() < num );
-  
+  return result
 }
 var count = []
 count.push(doWhileLoop(10))
