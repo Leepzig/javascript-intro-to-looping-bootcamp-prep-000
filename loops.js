@@ -34,4 +34,3 @@ function doWhileLoop(num) {
   return result
 }
 
-doWhileLoop(2)
