@@ -34,4 +34,4 @@ function doWhileLoop(num) {
 }
 var count = []
 count.push(doWhileLoop(10))
-console.logt(count.length)
+console.log(count.length)
